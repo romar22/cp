@@ -2,6 +2,7 @@
 using namespace std;
 
 int main() {
+    unordered_map<int, int> ump;
     map <char, int> mp;
     mp['a'] = 1;
     mp['b'] = 2;

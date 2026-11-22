@@ -2,9 +2,9 @@
 using namespace std;
 
 int main() {
-
-    // return with decimal
-    cout << float(5) / 2;
-
+    string s;
+    getline(cin, s); // a b c
+    cout << s; // a b c
+    
     return 0;
 }

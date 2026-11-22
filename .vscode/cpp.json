@@ -1,26 +1,22 @@
 {
     "Template": {
-        "prefix": "cp",
+        "prefix": "tcc",
         "body": [
             "#include <bits/stdc++.h>",
             "using namespace std;",
             "",
-            "#ifndef ONLINE_JUDGE",
-            "    #include \"debug.h\"",
-            "#else",
-            "    #define debug(x) ((void)0)",
-            "#endif",
+            "#define fastIO ios_base::sync_with_stdio(false); cin.tie(nullptr);",
+            "#define endl '\\n'",
+            "#define ll long long",
             "",
             "void solve() {",
             "    $0",
             "}",
             "",
             "int main() {",
-            "    ios_base::sync_with_stdio(false);",
-            "    cin.tie(nullptr);",
-            "",
-            "    int t = 1;",
-            "    // cin >> t;",
+            "    fastIO;",
+            "    int t;",
+            "    cin >> t;",
             "    while (t--) {",
             "        solve();",
             "    }",
@@ -29,5 +25,24 @@
             "}"
         ],
         "description": "Template"
+    },
+    "Template 2": {
+        "prefix": "tc",
+        "body": [
+            "#include <bits/stdc++.h>",
+            "using namespace std;",
+            "",
+            "#define fastIO ios_base::sync_with_stdio(false); cin.tie(nullptr);",
+            "#define endl '\\n'",
+            "#define ll long long",
+            "",
+            "int main() {",
+            "    fastIO;",
+            "    $0",
+            "",
+            "    return 0;",
+            "}"
+        ],
+        "description": "Template 2"
     }
 }

@@ -10,7 +10,9 @@
                     "args": {
                         // "text": "fast solve.cpp < input.txt\u000D"
                         // g++-16 -std=c++17 "$1.cpp" -o "$1" && ./"$1" - add this function on zshrc
+                        // g++-16 -std=c++17 -O2 -include debug.h "$1.cpp" -o solve && ./solve - include debug.h
                         "text": "fastp ${fileBasenameNoExtension} < input.txt\u000D"
+                        // "text": "fastp ${fileBasenameNoExtension}\u000D"
                     }
                 }
             ]
